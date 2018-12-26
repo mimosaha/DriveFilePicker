@@ -77,7 +77,7 @@ public class DataReceiveFromDrive {
                     new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                             .requestScopes(Drive.SCOPE_FILE)
                             .requestScopes(Drive.SCOPE_APPFOLDER)
-                            .setAccountName("w3.left@gmail.com")
+                            .setAccountName("mmimosaha@gmail.com")
                             .build();
             GoogleSignInClient googleSignInClient = GoogleSignIn.getClient(activity, signInOptions);
             activity.startActivityForResult(googleSignInClient.getSignInIntent(), REQUEST_CODE_SIGN_IN);
